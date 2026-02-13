@@ -34,7 +34,18 @@ The dataset satisfies the assignment requirements of having more than 12 feature
 
 ---
 
-## 3. Machine Learning Models Implemented
+## 3. Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Label Encoding applied to categorical variables
+- Feature scaling using StandardScaler
+- Stratified 80-20 train-test split
+- All models trained on identical processed dataset for fair comparison
+
+---
+
+## 4. Machine Learning Models Implemented
 
 The following classification models were implemented on the same dataset:
 
@@ -49,7 +60,7 @@ All models were trained using an 80-20 train-test split and evaluated on the tes
 
 ---
 
-## 4. Evaluation Metrics Used
+## 5. Evaluation Metrics Used
 
 Each model was evaluated using the following performance metrics:
 
@@ -62,7 +73,7 @@ Each model was evaluated using the following performance metrics:
 
 ---
 
-## 5. Model Performance Comparison
+## 6. Model Performance Comparison
 
 | Model | Accuracy | AUC | Precision | Recall | F1 Score | MCC |
 |--------|----------|------|------------|---------|------------|------|
@@ -75,7 +86,7 @@ Each model was evaluated using the following performance metrics:
 
 ---
 
-## 6. Observations
+## 7. Observations
 
 | Model | Observation |
 |--------|------------|
@@ -88,7 +99,7 @@ Each model was evaluated using the following performance metrics:
 
 ---
 
-## 7. Streamlit Application
+## 8. Streamlit Application
 
 An interactive Streamlit web application was developed with the following features:
 
@@ -102,7 +113,7 @@ The application was deployed using Streamlit Community Cloud.
 
 ---
 
-## 8. Repository Structure
+## 9. Repository Structure
 
 Streamlit/
 │
@@ -126,21 +137,29 @@ Streamlit/
 
 ---
 
-## 9. Deployment
+## 10. Deployment
+
+### GitHub Repository
+https://github.com/2025ab05316-alt/ML_assignment_2
+
+### Live Streamlit Application
+https://mlassignment2-xbva9si6n8pew3lsspw4vo.streamlit.app/
+
+The Streamlit application was deployed using Streamlit Community Cloud.
+
+---
+## 11. Deployment
 
 The Streamlit application was deployed using Streamlit Community Cloud and is accessible through the submitted live link.
 
 ---
 
-## 10. Conclusion
+## 12. Conclusion
 
-This assignment demonstrates end-to-end machine learning workflow including:
+This assignment demonstrates a complete end-to-end machine learning workflow including data preprocessing, model training, performance evaluation, comparative analysis, and deployment.
 
-- Data preprocessing
-- Model implementation
-- Model evaluation
-- Performance comparison
-- Web application development
-- Cloud deployment
+Among the implemented models, ensemble methods such as Random Forest and XGBoost achieved superior overall performance, particularly in terms of AUC and F1 Score. The results highlight the effectiveness of ensemble learning for handling complex real-world classification problems.
+
+The trained models were successfully deployed using Streamlit Community Cloud, enabling interactive evaluation and real-time model comparison.
 
 All tasks were completed using BITS Virtual Lab as required.
